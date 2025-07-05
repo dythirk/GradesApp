@@ -8,9 +8,9 @@ namespace GradesApp
 {
     public class Student
     {
-        string Name;
-        int ID;
-        List<double> Grades = new List<double>();
+        public string Name;
+        public int ID;
+        public List<double> Grades = new List<double>();
 
         public void AddGrade(double Grade)
         {
@@ -32,6 +32,12 @@ namespace GradesApp
             {
                 return Grades.Average();
             }
+        }
+
+        public Student( string name,  int id)
+        {
+            Name = name;
+            ID = id;
         }
     }
 }
