@@ -24,13 +24,14 @@ class Program
         s1.AddGrade(94.3);
         s1.AddGrade(90.0, 78.9, 95.4, 74.2);
 
-        s2.AddGrade(95.4, 92.3);
-        s2.AddGrade(91.5, 94.5);
+        s2.AddGrade(95.4, 92.3, 100);
+        s2.AddGrade(91.5, 94.5, 100);
 
         s3.AddGrade(98.4, 97.5, 96.6);
-        s3.AddGrade(100, 99.3);
+        s3.AddGrade(100);
+        s3.AddGrade(100, 100, 100);
 
-        s4.AddGrade(80.1, 78.5, 79.1, 80.9);
+        s4.AddGrade(80.1, 78.5, 79.1);
         s4.AddGrade(79.9, 79.4);
 
         foreach (var student in students)
@@ -43,19 +44,27 @@ class Program
             }
 
             Console.WriteLine($"Grade Point Average: {student.CalculateAverageGrade()}\n");
-
         }
 
         var c1 = new Course("Clapping for Credit", "A101");
         c1.EnrollStudents(s1);
         c1.EnrollStudents(s2);
+        c1.EnrollStudents(s3);
+
+        var c2 = new Course("Drumming for Dummies", "A102");
+        c2.EnrollStudents(s1);
+        c2.EnrollStudents(s2);
+        c2.EnrollStudents(s4);
 
         foreach (var enrolled in c1.EnrolledStudents)
         {
-            Console.WriteLine($"Student: {enrolled.Name}");
+            Console.WriteLine($"Student in {c1.CourseName}: {enrolled.Name}");
         }
 
-
+        foreach (var enrolled in c2.EnrolledStudents)
+        {
+            Console.WriteLine($"Student in {c2.CourseName}: {enrolled.Name}");
+        }
     }
 }
 
