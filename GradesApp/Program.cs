@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using GradesApp;
 using System;
 using System.Collections.Generic;
 
@@ -44,6 +45,17 @@ class Program
             Console.WriteLine($"Grade Point Average: {student.CalculateAverageGrade()}\n");
 
         }
+
+        var c1 = new Course("Clapping for Credit", "A101");
+        c1.EnrollStudents(s1);
+        c1.EnrollStudents(s2);
+
+        foreach (var enrolled in c1.EnrolledStudents)
+        {
+            Console.WriteLine($"Student: {enrolled.Name}");
+        }
+
+
     }
 }
 
