@@ -4,27 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GradesApp
-{
     public class Student
     {
         public string Name;
         public int ID;
         public List<double> Grades = new List<double>();
 
-        public void AddGrade(double Grade)
+        public void AddGrade(double Grade)  //Adding a single grade
         {
             Grades.Add(Grade);
         }
 
-        public void AddGrade(params double[] grades)
+        public void AddGrade(params double[] grades)    // Adding an array (overloading the AddGrade)
         {
             Grades.AddRange(grades);
         }
 
         public double CalculateAverageGrade()
         {
-            if (Grades.Count == 0)
+            if (Grades.Count == 0)  // Testing for a null list
             {
                 return 0;
             }
@@ -34,10 +32,10 @@ namespace GradesApp
             }
         }
 
-        public Student( string name,  int id)
+        public Student( string name,  int id)   // Constructor for two default fields
         {
             Name = name;
             ID = id;
         }
     }
-}
+
