@@ -50,6 +50,7 @@ class Program
         c1.EnrollStudents(s1);
         c1.EnrollStudents(s2);
         c1.EnrollStudents(s3);
+        c1.EnrollStudents(s1);      // Duplication testing
 
         var c2 = new Course("Drumming for Dummies", "A102");
         c2.EnrollStudents(s1);
