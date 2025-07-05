@@ -1,0 +1,6 @@
+# Ignore everything
+*
+
+# Except the following files
+!.\GradesApp\Program.cs"
+!.\GradesApp.sln
