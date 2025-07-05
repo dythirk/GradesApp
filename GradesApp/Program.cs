@@ -16,6 +16,13 @@ namespace GradesApp;
         var s3 = new Student("G Harrison", 3);
         var s4 = new Student("R Starr", 4);
 
+        students.Add(s1);
+        students.Add(s2);
+        students.Add(s3);
+        students.Add(s4);
+
+
+
 
         }
 
