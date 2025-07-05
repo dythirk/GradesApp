@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Thai\\Desktop\\repos\\GradesApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C172AFAF-9411-474A-80FC-E8EF16AED203}|GradesApp\\GradesApp.csproj|c:\\users\\thai\\desktop\\repos\\gradesapp\\gradesapp\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C172AFAF-9411-474A-80FC-E8EF16AED203}|GradesApp\\GradesApp.csproj|solutionrelative:gradesapp\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C172AFAF-9411-474A-80FC-E8EF16AED203}|GradesApp\\GradesApp.csproj|c:\\users\\thai\\desktop\\repos\\gradesapp\\gradesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C172AFAF-9411-474A-80FC-E8EF16AED203}|GradesApp\\GradesApp.csproj|solutionrelative:gradesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Thai\\Desktop\\repos\\GradesApp\\GradesApp\\Student.cs",
+              "RelativeDocumentMoniker": "GradesApp\\Student.cs",
+              "ToolTip": "C:\\Users\\Thai\\Desktop\\repos\\GradesApp\\GradesApp\\Student.cs",
+              "RelativeToolTip": "GradesApp\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T00:45:31.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Thai\\Desktop\\repos\\GradesApp\\GradesApp\\Program.cs",
               "RelativeDocumentMoniker": "GradesApp\\Program.cs",
               "ToolTip": "C:\\Users\\Thai\\Desktop\\repos\\GradesApp\\GradesApp\\Program.cs",
               "RelativeToolTip": "GradesApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T00:45:04.204Z",
               "EditorCaption": ""
